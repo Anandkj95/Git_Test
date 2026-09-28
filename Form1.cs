@@ -20,17 +20,6 @@ namespace GIT_test
         private void Btn_Git_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Processing");
-            int i =0;
-            int a = 0;
-            int b = 0;
-            int sum = 0;
-            for(i=0;i<=4;i++)
-            {
-                sum = a + b;
-                a = b;
-                b= sum;
-                textBox1.Text=(b.ToString());
-            }
         }
     }
 }
