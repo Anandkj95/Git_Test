@@ -26,5 +26,10 @@ namespace GIT_test
         {
             MessageBox.Show("Hello Anand..");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Branch B button is Clicked..");
+        }
     }
 }
